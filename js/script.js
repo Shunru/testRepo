@@ -11,3 +11,6 @@ function draw(){
 if(mouseIsPressed){
  line(pmouseX,pmouseY,mouseX,mouseY);}
 }
+ function mousePressed(){
+ console.log('mousePressed');
+ }
