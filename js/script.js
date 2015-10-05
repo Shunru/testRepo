@@ -1,12 +1,13 @@
-var red;
+var red, blue;
+var redX;
+var redY;
 
 function setup(){
 red = color(255,0,0);
-
+blue = color(0.0.255);
 }
 
 function draw(){
 if(mouseIsPressed){
-ellipse(150,150,150);}
-  else(225,225,225);
+ line(pmouseX,pmouseY,mouseX,mouseY);}
 }
